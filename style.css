@@ -1,0 +1,149 @@
+body {
+    background-color: #e9b7c7;
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+.title {
+    width: 400px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 70px;
+    text-shadow: 2px 2px white;
+}
+
+.main-nav {
+    background-color: #549483;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.flex-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.main-nav ul {
+    list-style: none;
+    padding: 20px 200px;
+}
+
+.main-nav li {
+    display: inline;
+    padding-left: 20px;
+    border: 1px dotted white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.map {
+    width: 800px;
+    margin: auto;
+    position: relative;
+}
+
+.map img {
+    width: 800px;
+}
+
+.map span {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    top: 40%;
+    left: 15%;
+    background-color: #e84393;
+    animation: highlight 1.5s linear infinite;
+    animation-delay: 0.5s; 
+}
+
+@keyframes highlight {
+    100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+.map .France {
+    top: 36%;
+    left: 9%;
+    animation-delay: 0.5s;
+}
+
+.map .Greece {
+    top: 41%;
+    left: 19%;
+    animation-delay: 0.5s;
+}
+
+.map .Portugal {
+    top: 41%;
+    left: 4%;
+    animation-delay: 0.5s;
+}
+
+.map .Lanzarote {
+    top: 46%;
+    left: 2%;
+    animation-delay: 0.5s;
+}
+
+.map .England {
+    top: 32%;
+    left: 7%;
+    animation-delay: 0.5s;
+}
+
+.map .Slovakia {
+    top: 35%;
+    left: 17%;
+    animation-delay: 0.5s;
+}
+
+.map .Bulgaria {
+    top: 39%;
+    left: 20%;
+    animation-delay: 0.5s;
+}
+
+.map .Thailand {
+    top: 55%;
+    left: 55%;
+    animation-delay: 0.5s;
+}
+
+.map .Singapore {
+    top: 61%;
+    left: 56%;
+    animation-delay: 0.5s;
+}
+
+.map .Soon {
+    top: 67%;
+    left: 60%;
+    animation-delay: 0.5s;
+    background-color: #5441e4;
+}
+
+.Social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}

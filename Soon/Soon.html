@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon!</title>
+    <link rel="stylesheet" href="Soon-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis&family=Montserrat:ital,wght@0,400;1,200&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="main-box">
+        <div class="buttons">
+            <a href="../Singapore/Singapore.html" class="previous">Previous trip</a>
+            <a href="../index.html" class="home">Home</a>
+            <!-- <a href="../Singapore/Singapore.html" class="next">Next trip</a> -->
+         </div>
+         <h2>Bali</h2>
+         <hr>
+         <h3 id="coming">We are coming!</h3>
+        <section class="coming-soon">
+            <div>
+
+                <div class="countdown">
+                    <div class="container-day">
+                        <h3 class="day">Time</h3>
+                        <h3>Days</h3>
+                    </div>
+                    <div class="container-hour">
+                        <h3 class="hour">Time</h3>
+                        <h3>Hours</h3>
+                    </div>
+                    <div class="container-minute">
+                            <h3 class="minute">Time</h3>
+                            <h3>Minutes</h3>
+                    </div>
+                    <div class="container-second">
+                        <h3 class="second">Time</h3>
+                        <h3>Seconds</h3>
+                </div>
+
+            </div> 
+        </secion>
+        <div class="front-animation">
+            <div class="sky">
+                <div class="plane">
+                    <img src="airplane.png">
+                </div>
+                <div class="cloud">
+                    <img src="clouds.png">
+                    <img src="clouds.png">
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+    <script src="./soonscript.js"></script>
+    <!-- <script>
+        var countDownDate = new Date("Sept 18, 2022 08:00:00").getTime();
+        
+        var x = setInterval(function() {
+        
+          var now = new Date().getTime();
+            
+          var distance = countDownDate - now;
+
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            
+          document.getElementById("clock").innerHTML = days + "d " + hours + "h "
+          + minutes + "m " + seconds + "s ";
+            
+          if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("clock").innerHTML = "EXPIRED";
+          }
+        }, 1000);
+        </script> -->
+</body>
+</html>
